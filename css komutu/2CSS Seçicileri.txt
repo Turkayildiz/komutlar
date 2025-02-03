@@ -1,0 +1,11 @@
+CSS'te belirli HTML elemanlarını seçmek için seçiciler kullanılır.
+
+
+*	                Tüm öğeleri seçer	                         * { margin: 0; }
+element	             Belirli bir etiketi seçer	                h1 { color: red; }
+#id	              Belirli bir ID'yi seçer	                     #baslik { font-size: 24px; }
+.class	             Belirli bir sınıfı seçer	               .kirmizi { color: red; }
+element, element	 Birden fazla öğeyi seçer                	h1, h2 { color: blue; }
+element element	     İç içe elemanları seçer	                 div p { font-size: 18px; }
+element > element	Doğrudan içindeki elemanları seçer	        div > p { color: green; }
+element + element	Hemen sonraki kardeş elemanı seçer	        h1 + p { color: gray; }

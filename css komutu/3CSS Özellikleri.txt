@@ -1,0 +1,40 @@
+3.1. Renk ve Arka Plan
+
+color: red;              /* Yazı rengi */
+background-color: black; /* Arka plan rengi */
+opacity: 0.5;           /* Şeffaflık (0 ile 1 arasında) */
+
+3.2. Yazı Stilleri (Font & Text)
+
+font-size: 20px;         /* Yazı boyutu */
+font-family: Arial, sans-serif; /* Yazı tipi */
+font-weight: bold;       /* Kalın yazı */
+text-align: center;      /* Metni ortalama */
+line-height: 1.5;        /* Satır yüksekliği */
+text-transform: uppercase; /* Büyük harfe çevir */
+
+3.3. Kenarlıklar ve Gölgelendirme
+
+border: 2px solid black; /* Çerçeve */
+border-radius: 10px;     /* Köşeleri yuvarlatma */
+box-shadow: 3px 3px 5px gray; /* Gölgelendirme */
+
+3.4. Boşluklar (Margin & Padding)
+
+margin: 10px;    /* Dış boşluk */
+padding: 20px;   /* İç boşluk */
+
+3.5. Boyutlandırma
+
+width: 200px;     /* Genişlik */
+height: 100px;    /* Yükseklik */
+max-width: 100%;  /* Maksimum genişlik */
+
+3.6. Kutu Modeli (Box Model)
+
+display: block;   /* Bloğu kaplayan eleman */
+display: inline;  /* Satır içi eleman */
+display: flex;    /* Esnek kutu modeli */
+visibility: hidden; /* Görünmez yapar */
+overflow: hidden; /* Taşan içerikleri gizler */
+

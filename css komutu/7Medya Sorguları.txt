@@ -1,0 +1,8 @@
+Medya Sorguları (Responsive Design)
+Mobil uyumlu tasarım yapmak için kullanılır.
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+}

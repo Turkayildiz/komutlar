@@ -1,0 +1,21 @@
+4.1. Geçiş Efektleri (Transitions)
+
+button {
+    background-color: blue;
+    transition: background-color 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: red;
+}
+
+4.2. Animasyon (Keyframes)
+
+@keyframes hareket {
+    0% { transform: translateX(0px); }
+    100% { transform: translateX(100px); }
+}
+
+.box {
+    animation: hareket 2s infinite alternate;
+}

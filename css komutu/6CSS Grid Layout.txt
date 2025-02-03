@@ -1,0 +1,8 @@
+CSS Grid Layout
+Grid, tablolar gibi bölmeli düzenler oluşturmak için kullanılır
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}

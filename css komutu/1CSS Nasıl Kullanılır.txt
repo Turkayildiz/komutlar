@@ -1,0 +1,39 @@
+1.1. İç CSS (Internal CSS)
+CSS kodları <style> etiketi içinde HTML dosyasının içine yazılır.
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>İç CSS Örneği</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Merhaba Dünya</h1>
+</body>
+</html>
+
+1.2. Harici CSS (External CSS)
+CSS kodlarını ayrı bir dosyada yazarız ve HTML içinde <link> etiketi ile bağlarız.
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+1.3. Satır İçi CSS (Inline CSS)
+CSS kodları HTML etiketinin içine style="" özelliği ile yazılır.
+
+<h1 style="color: green; text-align: center;">Bu yeşil bir başlıktır</h1>

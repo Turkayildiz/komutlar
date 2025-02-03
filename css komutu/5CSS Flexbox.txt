@@ -1,0 +1,8 @@
+ CSS Flexbox
+Flexbox, daha düzenli bir layout oluşturmayı sağlar.
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
