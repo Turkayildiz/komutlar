@@ -1,0 +1,26 @@
+3.1. Değişiklikleri Kontrol Etme
+
+git status
+Bu komut, hangi dosyaların takip edildiğini, hangilerinin değiştirildiğini gösterir.
+
+3.2. Değişiklikleri Ekleme (Staging)
+Bir dosyayı Git'e eklemek için:
+
+git add dosya.txt
+
+Tüm dosyaları eklemek için:
+
+git add .
+
+3.3. Değişiklikleri Kaydetme (Commit)
+
+git commit -m "Değişiklik mesajı"
+Değişiklikler yerel olarak kaydedilir
+
+3.4. Commit Geçmişini Görme
+
+git log
+
+Daha kısa ve okunaklı görmek için:
+
+git log --oneline --graph --all

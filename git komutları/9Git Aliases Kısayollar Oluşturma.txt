@@ -1,0 +1,15 @@
+Git Aliases (Kısayollar Oluşturma)
+Sık kullandığınız komutlara kısayol atayabilirsiniz:
+
+git config --global alias.co checkout
+git config --global alias.st status
+git config --global alias.cm "commit -m"
+
+git init	             Yeni bir Git deposu oluşturur
+git clone <repo-url>	 Uzak bir repoyu indirir
+git add .	             Tüm değişiklikleri takip etmeye alır
+git commit -m "Mesaj"	 Değişiklikleri kaydeder
+git push origin main	 Uzak repoya gönderir
+git pull origin main	 Uzak repodaki güncellemeleri çeker
+git status	             Depodaki değişiklikleri gösterir
+git log	                 Commit geçmişini gösterir

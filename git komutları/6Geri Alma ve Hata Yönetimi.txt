@@ -1,0 +1,25 @@
+Geri Alma ve Hata Yönetimi
+6.1. Yapılmamış Değişiklikleri Sıfırlama
+Tüm değişiklikleri iptal etmek için:
+
+git checkout -- dosya.txt
+
+6.2. Son Commit’i Geri Alma
+
+git reset --soft HEAD~1
+
+Commit silinir, ama değişiklikler kalır.
+Tüm değişiklikleri silmek için:
+
+git reset --hard HEAD~1
+
+6.3. Belirli Bir Commit’e Geri Dönme
+
+git reset --hard <commit-id>
+
+6.4. Bir Commit’i Geri Almak (revert)
+
+git revert <commit-id>
+
+Yeni bir commit oluşturarak eski hali geri getirir.
+

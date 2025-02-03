@@ -1,0 +1,7 @@
+Eğer değişiklikleri kaydetmeden branch değiştirmek isterseniz:
+
+git stash
+
+Saklanan değişiklikleri geri almak için:
+
+git stash pop

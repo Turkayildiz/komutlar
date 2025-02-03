@@ -1,0 +1,26 @@
+Uzak Depo (GitHub, GitLab, Bitbucket) ile Çalışma
+
+5.1. Uzak Depoyu (Remote) Bağlama
+
+git remote add origin <repository-url>
+
+Bağlantıları görmek için:
+
+git remote -v
+
+5.2. Değişiklikleri Uzak Depoya Gönderme (Push)
+
+git push origin main
+
+Branch’ı ilk kez gönderiyorsanız:
+
+git push -u origin yeni_branch
+
+5.3. Uzak Depodan Değişiklikleri Çekme (Pull)
+
+git pull origin main
+
+5.4. Uzak Depodaki Değişiklikleri İndirme (Fetch)
+
+git fetch origin
+

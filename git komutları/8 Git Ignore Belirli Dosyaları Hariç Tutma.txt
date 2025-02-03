@@ -1,0 +1,8 @@
+Git Ignore (Belirli Dosyaları Hariç Tutma)
+Bazı dosyaların Git tarafından izlenmemesi için .gitignore dosyası oluşturulur.
+Örnek .gitignore:
+
+node_modules/
+.env
+*.log
+

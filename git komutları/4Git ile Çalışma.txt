@@ -1,0 +1,32 @@
+Git ile Çalışma
+4.1. Mevcut Dalları (Branch) Görme
+
+git branch
+
+4.2. Yeni Bir Branch Oluşturma
+
+git branch yeni_branch
+
+4.3. Branch Değiştirme (Checkout)
+
+git checkout yeni_branch
+
+Bir branch oluşturup ona geçmek için:
+
+git checkout -b yeni_branch
+
+4.4. Branch Birleştirme (Merge)
+Ana branch’e değişiklikleri katmak için:
+
+git checkout main
+git merge yeni_branch
+
+4.5. Branch Silme
+
+git branch -d yeni_branch
+
+Zorla silmek için:
+
+git branch -D yeni_branch
+
+

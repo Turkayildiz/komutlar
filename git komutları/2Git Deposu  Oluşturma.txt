@@ -1,0 +1,12 @@
+ Git Deposu Oluşturma
+ Git ile çalışmaya başlamak için bir depo (repository) oluşturmalısınız.
+
+ 2.1. Yeni Bir Git Deposu Başlatma
+
+ git init
+
+2.2. Var Olan Bir Depoyu Klonlama
+GitHub veya başka bir uzak depodan projeyi bilgisayarınıza çekmek için:
+
+git clone https://github.com/kullanici/proje.git
+git clone <repository-url>
