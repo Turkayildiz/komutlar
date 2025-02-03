@@ -1,0 +1,11 @@
+7. HTML Tablolar (<table>)
+<table border="1">
+    <tr>
+        <th>Ad</th>
+        <th>Soyad</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>Yılmaz</td>
+    </tr>
+</table>

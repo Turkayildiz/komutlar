@@ -1,0 +1,13 @@
+10. HTML Video ve Ses
+10.1. Video Eklemek
+
+<video width="320" height="240" controls>
+    <source src="video.mp4" type="video/mp4">
+    Tarayıcınız video etiketini desteklemiyor.
+</video>
+
+10.2. Ses Eklemek
+
+<audio controls>
+    <source src="ses.mp3" type="audio/mpeg">
+</audio>

@@ -1,0 +1,25 @@
+HTML Listeler (Madde İşaretli ve Numaralı Listeler)
+4.1. Sırasız Liste (<ul>)
+
+<ul>
+    <li>Elma</li>
+    <li>Armut</li>
+    <li>Muz</li>
+</ul>
+
+4.2. Sıralı Liste (<ol>)
+
+<ol>
+    <li>HTML Öğren</li>
+    <li>CSS Öğren</li>
+    <li>JavaScript Öğren</li>
+</ol>
+
+4.3. Açıklamalı Liste (<dl>)
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Web sayfalarını oluşturmak için kullanılır.</dd>
+    <dt>CSS</dt>
+    <dd>Sayfaları biçimlendirmek için kullanılır.</dd>
+</dl>

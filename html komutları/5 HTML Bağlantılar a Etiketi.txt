@@ -1,0 +1,6 @@
+HTML Bağlantılar (<a> Etiketi)
+Bağlantılar (<a>) etiketi ile oluşturulur.
+
+<a href="https://www.google.com">Google'a Git</a>
+<a href="sayfa.html" target="_blank">Yeni Sekmede Aç</a>
+<a href="mailto:email@example.com">E-posta Gönder</a>

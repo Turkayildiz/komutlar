@@ -1,0 +1,30 @@
+HTML Semantik Etiketler (SEO için önemli)
+
+<header>
+    <h1>Site Başlığı</h1>
+</header>
+<nav>
+    <a href="#">Ana Sayfa</a> | <a href="#">Hakkımızda</a>
+</nav>
+<section>
+    <article>
+        <h2>Makale Başlığı</h2>
+        <p>Bu bir makale içeriğidir.</p>
+    </article>
+</section>
+<footer>
+    <p>© 2024 Tüm Hakları Saklıdır.</p>
+</footer>
+
+
+<h1>-<h6>	        Başlık oluşturur
+<p>	                Paragraf ekler
+<a href="">	        Bağlantı oluşturur
+<img src="">	    Resim ekler
+<ul> / <ol>	        Liste oluşturur
+<table>	            Tablo oluşturur
+<form>	            Form oluşturur
+<input>	            Kullanıcıdan veri alır
+<video>	            Video ekler
+<audio>	            Ses ekler
+<iframe>	        Başka bir sayfa gömer

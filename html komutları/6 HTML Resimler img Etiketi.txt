@@ -1,0 +1,3 @@
+HTML Resimler (<img> Etiketi)
+
+<img src="resim.jpg" alt="Açıklama" width="200" height="100">

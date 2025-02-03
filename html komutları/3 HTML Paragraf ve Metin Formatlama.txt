@@ -1,0 +1,21 @@
+HTML Paragraf ve Metin Formatlama
+
+3.1. Paragraf ve Satır Boşluğu
+
+<p>Bu bir paragraftır.</p>
+<br> <!-- Satır atlar -->
+<hr> <!-- Yatay çizgi ekler -->
+
+3.2. Kalın, İtalik, Altı Çizili ve Üstü Çizili Yazı
+
+<b>Kalın yazı</b>  
+<strong>Önemli kalın yazı</strong>  
+<i>İtalik yazı</i>  
+<em>Vurgulu italik yazı</em>  
+<u>Altı çizili yazı</u>  
+<s>Üstü çizili yazı</s>  
+
+3.3. Üst Simge ve Alt Simge
+
+H<sub>2</sub>O (Su molekülü)  
+x<sup>2</sup> (Matematiksel ifade)  
