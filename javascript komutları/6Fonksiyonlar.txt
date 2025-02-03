@@ -1,0 +1,26 @@
+6. Fonksiyonlar
+6.1. Fonksiyon Tanımlama
+
+function selamVer() {
+    console.log("Merhaba!");
+}
+selamVer(); // "Merhaba!"
+
+6.2. Parametreli Fonksiyon
+
+function topla(a, b) {
+    return a + b;
+}
+console.log(topla(5, 10)); // 15
+
+6.3. Anonim Fonksiyonlar (Callback)
+
+let toplam = function(a, b) {
+    return a + b;
+};
+console.log(toplam(3, 7)); // 10
+
+6.4. Ok Fonksiyonu (Arrow Function)
+
+const carp = (a, b) => a * b;
+console.log(carp(3, 4)); // 12

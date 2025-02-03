@@ -1,0 +1,19 @@
+7. Diziler (Arrays)
+7.1. Dizi Tanımlama
+
+let sayilar = [1, 2, 3, 4, 5];
+console.log(sayilar[0]); // 1
+
+7.2. Diziye Eleman Ekleme
+
+sayilar.push(6);  // Sona ekler
+sayilar.unshift(0);  // Başına ekler
+
+7.3. Dizi Elemanı Silme
+
+sayilar.pop();  // Sondan çıkarır
+sayilar.shift();  // Başından çıkarır
+
+7.4. Dizi Uzunluğu
+
+console.log(sayilar.length); // Dizi uzunluğunu gösterir

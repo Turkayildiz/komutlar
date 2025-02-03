@@ -1,0 +1,18 @@
+JavaScript Temel Yapısı
+1.1. JavaScript Kodunun Yazılması
+JavaScript kodları genellikle <script> etiketi içerisinde yazılır. HTML dosyasına yerleştirilmiş kodlar şu şekilde olabilir:
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Örnek</title>
+</head>
+<body>
+    <h1>Merhaba JavaScript!</h1>
+    <script>
+        alert("Merhaba, JavaScript dünyasına hoş geldiniz!");
+    </script>
+</body>
+</html>

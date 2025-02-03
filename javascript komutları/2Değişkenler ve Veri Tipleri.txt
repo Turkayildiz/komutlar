@@ -1,0 +1,17 @@
+Değişkenler ve Veri Tipleri
+2.1. Değişken Tanımlama
+Değişkenler var, let, veya const anahtar kelimeleri ile tanımlanabilir.
+
+let ad = "Ali";      // Değiştirilebilir bir değişken
+const yas = 25;      // Sabit bir değer
+var sehir = "İstanbul"; // Eski yöntem
+
+2.2. Veri Tipleri
+
+String: Metin verileri ("Ali", 'Merhaba')
+Number: Sayılar (25, 3.14)
+Boolean: Doğru veya yanlış (true, false)
+Array: Dizi ([1, 2, 3], ['a', 'b', 'c'])
+Object: Nesne ({ad: "Ali", yas: 25})
+Null: Boş değer (null)
+Undefined: Tanımlanmamış değer (undefined)

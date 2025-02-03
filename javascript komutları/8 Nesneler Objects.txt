@@ -1,0 +1,14 @@
+Nesneler (Objects)
+8.1. Nesne Tanımlama
+
+let kisi = {
+    ad: "Ali",
+    soyad: "Yılmaz",
+    yas: 25
+};
+console.log(kisi.ad);  // "Ali"
+
+8.2. Nesneye Eleman Ekleme veya Güncelleme
+
+kisi.email = "ali@example.com"; // Yeni özellik ekleme
+kisi.yas = 26; // Mevcut özelliği güncelleme

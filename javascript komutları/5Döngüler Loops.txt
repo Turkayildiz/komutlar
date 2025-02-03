@@ -1,0 +1,29 @@
+5. Döngüler (Loops)
+5.1. For Döngüsü
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);  // 0, 1, 2, 3, 4
+}
+
+5.2. While Döngüsü
+
+let i = 0;
+while (i < 5) {
+    console.log(i);  // 0, 1, 2, 3, 4
+    i++;
+}
+
+5.3. Do-While Döngüsü
+
+let i = 0;
+do {
+    console.log(i);  // 0, 1, 2, 3, 4
+    i++;
+} while (i < 5);
+
+5.4. For-Each Döngüsü (Dizi üzerinde döngü)
+
+let meyveler = ["elma", "armut", "muz"];
+meyveler.forEach(function(meyve) {
+    console.log(meyve); // "elma", "armut", "muz"
+});

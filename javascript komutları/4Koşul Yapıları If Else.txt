@@ -1,0 +1,23 @@
+4. Koşul Yapıları (If-Else)
+4.1. If-Else Yapısı
+
+let x = 10;
+if (x > 5) {
+    console.log("X 5'ten büyüktür.");
+} else {
+    console.log("X 5'ten küçük veya eşittir.");
+}
+
+4.2. Switch-Case Yapısı
+
+let meyve = "elma";
+switch (meyve) {
+    case "elma":
+        console.log("Elma seçildi.");
+        break;
+    case "armut":
+        console.log("Armut seçildi.");
+        break;
+    default:
+        console.log("Bilinmeyen meyve.");
+}

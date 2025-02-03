@@ -1,0 +1,23 @@
+DOM Manipülasyonu (Document Object Model)
+9.1. Element Seçme
+
+let baslik = document.getElementById("baslik");
+let butonlar = document.getElementsByClassName("buton");
+let input = document.querySelector("input");
+
+9.2. İçeriği Değiştirme
+
+document.getElementById("baslik").innerHTML = "Yeni Başlık";
+document.querySelector("p").textContent = "Bu yeni bir paragraf.";
+
+9.3. Stil Değiştirme
+
+document.getElementById("baslik").style.color = "red";
+document.querySelector("p").style.fontSize = "20px";
+
+9.4. Etkinlik (Event) Dinleyici Ekleme
+
+let buton = document.querySelector("button");
+buton.addEventListener("click", function() {
+    alert("Butona tıklandı!");
+});
